@@ -1,10 +1,7 @@
 body {
-    margin:0;
     font-family: system-ui, sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 ul {
@@ -40,27 +37,18 @@ li a:hover {
     width: 100%;
     object-fit: cover;
     position: relative;
-    background-size: 200%;
+    background-size: auto;
     }
     
-    h1, #btnVideo{
-    
-    color: white;
-    
-    font-family: Trebuchet MS;
-    
-    font-weight: bold;
-    
-    text-align: center;
-    
-    }
 
 .texte h1 {
     top: 10%;
-    left: 5%;
     z-index: 1;
     position: fixed;
-    font-size: calc( 1em + 30vmin );
+}
+
+h1 {
+    font-size: 100px;
     font-weight: 900;
     color: tomato;
     
@@ -81,25 +69,7 @@ li a:hover {
       calc( var(--y-offset) + var(--stroke) )
       0px
       var(--stroke-color);
-}
-
-@supports ( text-shadow: 1px 1px 1px 1px black ) {
-    h1 {
-      text-shadow:
-        
-        var(--x-offset)
-        var(--y-offset)
-        0px
-        0px
-        var(--background-color), 
-        
-        var(--x-offset) 
-        var(--y-offset)
-        var(--stroke)
-        0px
-        var(--stroke-color);
-      
-    }
+    
   }
 
 #boutons {
@@ -139,4 +109,10 @@ li a:hover {
     height: 80px;
     border-radius: 35px;
     background-color: rgb(207, 91, 49);
+}
+
+footer {
+    background: saddlebrown;
+    text-align: center;
+    border: 2px solid black;
 }

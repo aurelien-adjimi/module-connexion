@@ -55,7 +55,6 @@ if ($mdpconnect == $value['password'] && $loginconnect == $value['login']) {
       </h2>
       </div>
    <div id="formulaire" align=center>
-      <div align=center>
          <form method="POST" action="">
             <div class="inp">
             <input  type="text" name="loginconnect" placeholder="Entrez votre login" />
