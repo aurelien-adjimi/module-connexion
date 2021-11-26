@@ -1,0 +1,52 @@
+body {
+    margin-top: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+    background-image: url(./Logo-Chicago-Bulls-Wallpaper-HD.jpg);
+    background-size: 100%;
+}
+
+label {
+    font-size: 25px;
+    color: cornsilk;
+}
+
+.inp input {
+border: 2px solid black;
+border-radius: 10px;
+background-color: rgb(218, 97, 27);
+}
+
+.inp input[value] {
+    font-size: 20px;
+    color: white;
+}
